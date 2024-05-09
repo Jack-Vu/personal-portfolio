@@ -1,4 +1,4 @@
-import { Hero, MobileNavbar, Navbar } from "@/components";
+import { About, Hero, MobileNavbar, Navbar } from "@/components";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -13,6 +13,9 @@ const HomePage = () => {
         <MobileNavbar nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />
         <Hero />
+        <div className="relative z-[30]">
+          <About />
+        </div>
       </div>
     </div>
   );

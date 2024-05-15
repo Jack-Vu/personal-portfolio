@@ -12,7 +12,6 @@ const HomePage = () => {
       <div>
         <MobileNavbar nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />
-        Hello
         <Hero />
         <div className="relative z-[30]">
           <About />

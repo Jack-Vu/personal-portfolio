@@ -11,7 +11,7 @@ const Tech = () => {
       {tech.map(({ name, icon }) => {
         return (
           <div key={name} className="w-28 h-28">
-            <img src={`${icon}`} alt="name" />
+            <img src={`${icon}`} alt="name" className="w-20 h-20"/>
           </div>
         );
       })}

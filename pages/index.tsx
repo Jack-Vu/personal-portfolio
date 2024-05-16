@@ -1,4 +1,13 @@
-import { About, Experience, Hero, MobileNavbar, Navbar, Tech, Testimonies } from "@/src/components";
+import {
+  About,
+  Experience,
+  Hero,
+  MobileNavbar,
+  Navbar,
+  Tech,
+  Testimonies,
+} from "@/src/components";
+import { Projects } from "@/src/components/Projects";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -16,6 +25,7 @@ const HomePage = () => {
         <div className="relative z-[30]">
           <About />
           <Experience />
+          <Projects />
           <Tech />
           <Testimonies />
         </div>

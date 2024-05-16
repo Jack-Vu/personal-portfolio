@@ -64,7 +64,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <div className="bg-[#141c27]">
+    <div className="bg-[#141c27] pb-[4rem] pt-[2rem] md:pt-[8rem]">
       <div className="w-[85%] mx-auto gap-[3rem] items-center">
         <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
           MY JOURNEY SO FAR

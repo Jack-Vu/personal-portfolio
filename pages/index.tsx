@@ -1,4 +1,4 @@
-import { About, Hero, MobileNavbar, Navbar, Testimonies } from "@/components";
+import { About, Experience, Hero, MobileNavbar, Navbar, Testimonies } from "@/src/components";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -15,6 +15,7 @@ const HomePage = () => {
         <Hero />
         <div className="relative z-[30]">
           <About />
+          <Experience />
           <Testimonies />
         </div>
       </div>

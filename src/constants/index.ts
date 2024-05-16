@@ -40,4 +40,17 @@ const experiences = [
   },
 ];
 
-export { experiences };
+const tech = [
+  { name: "html", icon: "/img/html.svg" },
+  { name: "css", icon: "/img/css.svg" },
+  { name: "javascript", icon: "/img/javascript.svg" },
+  { name: "typescript", icon: "/img/typescript.svg" },
+  { name: "react", icon: "/img/react.svg" },
+  { name: "next", icon: "/img/next.svg" },
+  { name: "bootstrap", icon: "/img/bootstrap.svg" },
+  { name: "material-ui", icon: "/img/material-ui.svg" },
+  { name: "redux", icon: "/img/redux.svg" },
+  { name: "git", icon: "/img/git.svg" },
+  { name: "github", icon: "/img/github.svg" },
+];
+export { experiences, tech };

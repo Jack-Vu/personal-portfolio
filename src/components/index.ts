@@ -3,4 +3,5 @@ export * from "./MobileNavbar";
 export * from "./Hero";
 export * from "./About";
 export * from "./Testimonies";
-export * from "./Experience"
+export * from "./Experience";
+export * from "./Tech";

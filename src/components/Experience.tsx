@@ -6,7 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../constants";
 
-type experienceType = {
+type ExperienceType = {
   title: string;
   company_name: string;
   icon: string;
@@ -16,7 +16,7 @@ type experienceType = {
 };
 
 interface ExperienceCardProps {
-  experience: experienceType;
+  experience: ExperienceType;
 }
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
@@ -75,7 +75,7 @@ const Experience = () => {
       </div>
       <div className="flex flex-col">
         <VerticalTimeline>
-          {experiences.map((experience: experienceType, index) => (
+          {experiences.map((experience: ExperienceType, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}

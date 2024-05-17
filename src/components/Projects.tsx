@@ -49,18 +49,22 @@ const ProjectCard = ({
 
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className={`mt-2 text-[16px] ${website_link ? "" : "mb-6 mt-[18px]"}`}>
+        <p
+          className={`mt-2 text-[16px] ${website_link ? "" : "mb-6 mt-[18px]"}`}
+        >
           {description}
         </p>
         {website_link && (
           <>
-          <span>Link: </span>
-          <Link
-            className="text-[15px] text-purple-400 underline"
-            href={website_link}
-          >
-            {website_link}
-          </Link>
+            <span className="font-normal">Link: </span>
+            <Link
+              className="text-[15px] text-purple-400 underline"
+              href={website_link}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {website_link}
+            </Link>
           </>
         )}
       </div>

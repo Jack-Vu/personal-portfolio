@@ -93,7 +93,7 @@ const projects = [
   {
     name: "Bazaar",
     description:
-      "Welcome to Bazaar, explore a wide range of features and an variety selection on our mock ecommerce  website.",
+      "Welcome to Bazaar! Explore a wide range of features and an variety selection on our mock ecommerce  website. Checkout some of the test products.",
     tags: [
       {
         name: "typescript",
@@ -131,7 +131,7 @@ const projects = [
   {
     name: "To Do List",
     description:
-      "A simple designed application allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data local so you task will persist until cookies and caches are cleared.",
+      "A simple designed application allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data locally so you task will persist until cleared.",
     tags: [
       {
         name: "react",
@@ -175,7 +175,7 @@ const projects = [
   {
     name: "Match Maker",
     description:
-      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
+      "Match Maker is a fun memory game developed in react. Increase the difficulty by changing the speed or grid size. Great for improve memory and reaction time.",
     tags: [
       {
         name: "react",

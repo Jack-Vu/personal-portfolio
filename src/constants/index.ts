@@ -170,6 +170,7 @@ const projects = [
     ],
     image: "/img/project-1.png",
     source_code_link: "https://github.com/Jack-Vu/calculator",
+    website_link: "https://calculator.jack-vu.com",
   },
 
   {
@@ -188,6 +189,7 @@ const projects = [
     ],
     image: "/img/project-3.png",
     source_code_link: "https://github.com/Jack-Vu/match-maker",
+    website_link: "https://match-maker.jack-vu.com/",
   },
 ];
 export { experiences, tech, projects };

@@ -179,12 +179,16 @@ const projects = [
       "Match Maker is a fun memory game developed in react. Increase the game difficulty by changing the speed or grid size. Great for improve memory and reaction time.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "text-orange-600",
       },
       {
-        name: "mui",
+        name: "react",
         color: "text-red-600",
+      },
+      {
+        name: "mui",
+        color: "text-green-600",
       },
     ],
     image: "/img/project-3.png",

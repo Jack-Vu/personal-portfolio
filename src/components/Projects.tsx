@@ -53,12 +53,15 @@ const ProjectCard = ({
           {description}
         </p>
         {website_link && (
+          <>
+          <span>Link: </span>
           <Link
             className="text-[15px] text-purple-400 underline"
             href={website_link}
           >
             {website_link}
           </Link>
+          </>
         )}
       </div>
 

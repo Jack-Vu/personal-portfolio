@@ -22,7 +22,7 @@ const Testimonies = () => {
             <h1 className="text-[10px] md:text-[20px] mb-[1.5rem] uppercase">
               Re:boot Colleague
             </h1>
-            <p className="text-[15px] text-[#d3d2d2] font-normal">
+            <p className="text-[16px] text-[#d3d2d2] font-normal">
               "Jack is a dependable colleague, always ready to assist and offer
               guidance. His patience and willingness to help, even with basic
               questions, highlight his admirable demeanor. With his knowledge
@@ -40,7 +40,7 @@ const Testimonies = () => {
             <h1 className="text-[10px] md:text-[20px] mb-[1.5rem] uppercase">
               Re:boot Instructor & CEO
             </h1>
-            <p className="text-[15px] text-[#d3d2d2] font-normal">
+            <p className="text-[16px] text-[#d3d2d2] font-normal">
               "Couldn't have completed class projects without all of his
               contributions and help; Jack is well on his way to being a Full
               Stack Web Developer and, furthermore, he is a teammate we all can
@@ -58,7 +58,7 @@ const Testimonies = () => {
             <h1 className="text-[10px] md:text-[20px] mb-[1.5rem] uppercase">
               Re:boot Colleague
             </h1>
-            <p className="text-[15px] text-[#d3d2d2] font-normal">
+            <p className="text-[16px] text-[#d3d2d2] font-normal">
               "Jack's performance is consistently exceptional! It fills me with
               pride to have collaborated with him on multiple projects.
               Observing his rapid learning speed, akin to a sponge absorbing

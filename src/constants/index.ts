@@ -1,28 +1,27 @@
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Data Analyst",
     company_name: "Endominance",
     icon: "/img/endominance.png",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2022 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created reports on study participation and results for study clients.",
+      "Cleaned and validated data for thousands of participants.",
+      "Analyzed study data and identified consistent fraudulent activity, improved study protocols, resulting in reduced costs due to such errors. ",
+      "Lead meetings with partnering clinics regarding study analytics and participant engagement data.",
+      "Contacted participants, resolved issues or complaints, and ensured their completion of the study.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Physical Therapy Technician",
     company_name: "The Center for Physical Therapy and Sports Medicine",
     icon: "/img/centerpt.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Handled up to 6 patients at a time, guiding them through exercises, providing hands-on assistance, and offering support.",
+      "Communicated with patients, regularly checking on their well-being and adjusting their exercise plans to match their progress.",
     ],
   },
   {
@@ -30,12 +29,10 @@ const experiences = [
     company_name: "Pivot",
     icon: "/img/pivot.png",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "November 2020 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensured patients were checked in on time and started their exercises promptly to avoid delays and conflicting appointments.",
+      "Demonstrated and thoroughly explained exercises to patients.",
     ],
   },
 ];
@@ -79,7 +76,7 @@ const projects = [
   {
     name: "To Do List",
     description:
-      "Built with React and deployed using AWS Amplify. It is a simple design allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data local so you task will persist until cookies and caches are cleared.",
+      "A simple designed application allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data local so you task will persist until cookies and caches are cleared.",
     tags: [
       {
         name: "react",
@@ -100,7 +97,7 @@ const projects = [
   {
     name: "Match Maker",
     description:
-      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. If you get stuck, try out the hint button. Great for improve memory and reaction time.",
+      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
     tags: [
       {
         name: "react",
@@ -160,7 +157,7 @@ const projects = [
   {
     name: "Bazaar",
     description:
-      "Welcome to Bazaar, your ultimate destination for a comprehensive e-commerce experience. Explore a wide range of features and an variety selection of items.",
+      "Welcome to Bazaar, explore a wide range of features and an variety selection on our mock ecommerce  website.",
     tags: [
       {
         name: "typescript",

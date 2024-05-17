@@ -14,10 +14,12 @@ const Testimonies = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
         <div>
-          <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]">
+          <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 font-semibold text-center p-[2rem]">
             <CodeBracketIcon className="w-[4rem] h-[4rem] mx-auto text-[#d3fae8]" />
-            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem]">Hye Lee</h1>
-            <h1 className="text-[10px] md:text-[20px] mb-[1.5rem]">
+            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] uppercase">
+              Hye Lee
+            </h1>
+            <h1 className="text-[10px] md:text-[20px] mb-[1.5rem] uppercase">
               Re:boot Colleague
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
@@ -30,12 +32,12 @@ const Testimonies = () => {
           </div>
         </div>
         <div>
-          <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]">
+          <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 font-semibold text-center p-[2rem]">
             <RocketLaunchIcon className="w-[4rem] h-[4rem] mx-auto text-[#d3fae8]" />
-            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem]">
+            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] uppercase">
               Muradil Erkin
             </h1>
-            <h1 className="text-[10px] md:text-[20px] mb-[1.5rem]">
+            <h1 className="text-[10px] md:text-[20px] mb-[1.5rem] uppercase">
               Re:boot Instructor & CEO
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
@@ -48,10 +50,12 @@ const Testimonies = () => {
           </div>
         </div>
         <div>
-          <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem]">
+          <div className="bg-blue-700 hover:scale-110 transform transition-all duration-300 hover:rotate-6 font-semibold text-center p-[2rem]">
             <CommandLineIcon className="w-[4rem] h-[4rem] mx-auto text-[#d3fae8]" />
-            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem]">Shin Kim</h1>
-            <h1 className="text-[10px] md:text-[20px] mb-[1.5rem]">
+            <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] uppercase">
+              Shin Kim
+            </h1>
+            <h1 className="text-[10px] md:text-[20px] mb-[1.5rem] uppercase">
               Re:boot Colleague
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">

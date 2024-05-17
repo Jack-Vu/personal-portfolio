@@ -88,7 +88,7 @@ const projects = [
     ],
     image: "/img/project-4.png",
     source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/TwistaGram",
-    active: false,
+    website_link: "https://twistagram.re-boot.us/",
   },
   {
     name: "Bazaar",
@@ -126,25 +126,29 @@ const projects = [
     ],
     image: "/img/project-5.png",
     source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/Bazaar",
-    active: false,
+    website_link: "https://bazaar.re-boot.us/",
   },
   {
-    name: "Match Maker",
+    name: "To Do List",
     description:
-      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
+      "A simple designed application allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data local so you task will persist until cookies and caches are cleared.",
     tags: [
       {
         name: "react",
         color: "text-orange-600",
       },
       {
-        name: "mui",
+        name: "bootstrap",
         color: "text-red-600",
       },
+      {
+        name: "aws",
+        color: "text-green-600",
+      },
     ],
-    image: "/img/project-3.png",
-    source_code_link: "https://github.com/Jack-Vu/match-maker",
-    active: true,
+    image: "/img/project-2.png",
+    source_code_link: "https://github.com/Jack-Vu/Jack-todo-list",
+    website_link: "https://todolist.jack-vu.com/",
   },
   {
     name: "Calculator",
@@ -167,26 +171,23 @@ const projects = [
     image: "/img/project-1.png",
     source_code_link: "https://github.com/Jack-Vu/calculator",
   },
+
   {
-    name: "To Do List",
+    name: "Match Maker",
     description:
-      "A simple designed application allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data local so you task will persist until cookies and caches are cleared.",
+      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
     tags: [
       {
         name: "react",
         color: "text-orange-600",
       },
       {
-        name: "bootstrap",
+        name: "mui",
         color: "text-red-600",
       },
-      {
-        name: "aws",
-        color: "text-green-600",
-      },
     ],
-    image: "/img/project-2.png",
-    source_code_link: "https://github.com/Jack-Vu/Jack-todo-list",
+    image: "/img/project-3.png",
+    source_code_link: "https://github.com/Jack-Vu/match-maker",
   },
 ];
 export { experiences, tech, projects };

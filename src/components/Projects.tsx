@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { projects } from "../constants";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 type tagsType = {
   name: string;
@@ -13,6 +14,7 @@ interface ProjectCardType {
   tags: tagsType[];
   image: string;
   source_code_link: string;
+  website_link?: string;
 }
 
 const ProjectCard = ({
@@ -21,6 +23,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  website_link,
 }: ProjectCardType) => {
   return (
     <div className="bg-blue-600 p-5 rounded-2xl min-h-[450px] w-full">
@@ -46,7 +49,8 @@ const ProjectCard = ({
 
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[16px]">{description}</p>
+        <p className="mt-2 text-[16px]">{description}</p>
+        {website_link && <Link className="text-[15px] text-purple-400 underline" href={website_link}>{website_link}</Link>}
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1">

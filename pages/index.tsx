@@ -7,6 +7,7 @@ import {
   Tech,
   Testimonies,
 } from "@/src/components";
+import Contact from "@/src/components/Contact";
 import { Projects } from "@/src/components/Projects";
 import React, { useState } from "react";
 
@@ -23,11 +24,22 @@ const HomePage = () => {
         <Navbar openNav={openNav} />
         <Hero />
         <div className="relative z-[30]">
-          <About />
-          <Experience />
-          <Projects />
+          <div id="about-section">
+            <About />
+          </div>
+          <div id="experience-section">
+            <Experience />
+          </div>
+          <div id="project-section">
+            <Projects />
+          </div>
           <Tech />
-          <Testimonies />
+          <div id="testimonies-section">
+            <Testimonies />
+          </div>
+          <div id="contact-section">
+            <Contact />
+          </div>
         </div>
       </div>
     </div>

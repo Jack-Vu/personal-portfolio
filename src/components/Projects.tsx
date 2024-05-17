@@ -28,7 +28,7 @@ const ProjectCard = ({
         <img
           src={image}
           alt="project_image"
-          className="w-full h-[250px] object-cover rounded-2xl"
+          className="w-full h-[200px] md:h-[250px] object-cover rounded-2xl"
         />
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
@@ -61,7 +61,6 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [cards, setCards] = useState(projects);
   const [first, setFirst] = useState(0);
   const [second, setSecond] = useState(1);
   const [third, setThird] = useState(2);
@@ -125,10 +124,10 @@ const Projects = () => {
     <div className="bg-[#141c27] pb-[4rem] pt-[2rem] md:pt-[8rem]">
       <div className="w-[85%] mx-auto gap-[3rem] items-center">
         <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
-          MY JOURNEY SO FAR
+          A COLLECTION OF MY DEVELOPMENT WORK
         </h1>
         <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-          Work <span className="text-blue-400">Experience</span>
+          Software <span className="text-blue-400">Projects</span>
         </h2>
         <div className="flex items-center justify-center gap-2 md:gap-16">
           <button onClick={handleLeftClick}>

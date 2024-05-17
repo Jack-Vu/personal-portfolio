@@ -53,6 +53,100 @@ const tech = [
 
 const projects = [
   {
+    name: "TwistaGram",
+    description:
+      "TwistaGram is a twist on two powerful social media platforms Twitter and Instagram. It is easy to share life updates and is designed to be mobile friendly.",
+    tags: [
+      {
+        name: "typescript",
+        color: "text-orange-600",
+      },
+      {
+        name: "next.js",
+        color: "text-red-600",
+      },
+      {
+        name: "nextauth.js",
+        color: "text-green-600",
+      },
+      {
+        name: "mui",
+        color: "text-orange-600",
+      },
+      {
+        name: "tRPC",
+        color: "text-red-600",
+      },
+      {
+        name: "planetscale",
+        color: "text-green-600",
+      },
+      {
+        name: "prisma",
+        color: "text-orange-600",
+      },
+    ],
+    image: "/img/project-4.png",
+    source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/TwistaGram",
+    active: false,
+  },
+  {
+    name: "Bazaar",
+    description:
+      "Welcome to Bazaar, explore a wide range of features and an variety selection on our mock ecommerce  website.",
+    tags: [
+      {
+        name: "typescript",
+        color: "text-orange-600",
+      },
+      {
+        name: "next.js",
+        color: "text-red-600",
+      },
+      {
+        name: "nextauth.js",
+        color: "text-green-600",
+      },
+      {
+        name: "tailwindcss",
+        color: "text-orange-600",
+      },
+      {
+        name: "tRPC",
+        color: "text-red-600",
+      },
+      {
+        name: "planetscale",
+        color: "text-green-600",
+      },
+      {
+        name: "prisma",
+        color: "text-orange-600",
+      },
+    ],
+    image: "/img/project-5.png",
+    source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/Bazaar",
+    active: false,
+  },
+  {
+    name: "Match Maker",
+    description:
+      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
+    tags: [
+      {
+        name: "react",
+        color: "text-orange-600",
+      },
+      {
+        name: "mui",
+        color: "text-red-600",
+      },
+    ],
+    image: "/img/project-3.png",
+    source_code_link: "https://github.com/Jack-Vu/match-maker",
+    active: true,
+  },
+  {
     name: "Calculator",
     description:
       "This web calculator was built using pure css, html, and javascript. It offers simple arithmetic operations like add, subtract, multiple, divide, percentages, and sign changes, all within a user-friendly design.",
@@ -93,106 +187,6 @@ const projects = [
     ],
     image: "/img/project-2.png",
     source_code_link: "https://github.com/Jack-Vu/Jack-todo-list",
-  },
-  {
-    name: "Match Maker",
-    description:
-      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
-    tags: [
-      {
-        name: "react",
-        color: "text-orange-600",
-      },
-      {
-        name: "mui",
-        color: "text-red-600",
-      },
-    ],
-    image: "/img/project-3.png",
-    source_code_link: "https://github.com/Jack-Vu/match-maker",
-    active: true,
-    pos: 3,
-    idx: 3,
-  },
-  {
-    name: "TwistaGram",
-    description:
-      "TwistaGram is a twist on two powerful social media platforms Twitter and Instagram. It is easy to share life updates and is designed to be mobile friendly.",
-    tags: [
-      {
-        name: "typescript",
-        color: "text-orange-600",
-      },
-      {
-        name: "next.js",
-        color: "text-red-600",
-      },
-      {
-        name: "nextauth.js",
-        color: "text-green-600",
-      },
-      {
-        name: "mui",
-        color: "text-orange-600",
-      },
-      {
-        name: "tRPC",
-        color: "text-red-600",
-      },
-      {
-        name: "planetscale",
-        color: "text-green-600",
-      },
-      {
-        name: "prisma",
-        color: "text-orange-600",
-      },
-    ],
-    image: "/img/project-4.png",
-    source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/TwistaGram",
-    active: false,
-    pos: 4,
-    idx: 4,
-  },
-  {
-    name: "Bazaar",
-    description:
-      "Welcome to Bazaar, explore a wide range of features and an variety selection on our mock ecommerce  website.",
-    tags: [
-      {
-        name: "typescript",
-        color: "text-orange-600",
-      },
-      {
-        name: "next.js",
-        color: "text-red-600",
-      },
-      {
-        name: "nextauth.js",
-        color: "text-green-600",
-      },
-      {
-        name: "tailwindcss",
-        color: "text-orange-600",
-      },
-      {
-        name: "tRPC",
-        color: "text-red-600",
-      },
-      {
-        name: "planetscale",
-        color: "text-green-600",
-      },
-      {
-        name: "prisma",
-        color: "text-orange-600",
-      },
-    ],
-    image: "/img/project-5.png",
-    source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/Bazaar",
-    active: false,
-    pos: 5,
-    idx: 5,
   },
 ];
 export { experiences, tech, projects };

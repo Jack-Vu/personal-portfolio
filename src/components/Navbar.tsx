@@ -28,9 +28,9 @@ const Navbar = ({ openNav }: Props) => {
         <div className="nav-link">
           <Link href="#testimonies-section">TESTIMONIES</Link>
         </div>
-        <div className="nav-link">
+        {/* <div className="nav-link">
           <Link href="#contact-section">CONTACT</Link>
-        </div>
+        </div> */}
         <div onClick={openNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-blue-400" />
         </div>

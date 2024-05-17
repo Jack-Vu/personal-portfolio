@@ -30,9 +30,9 @@ const MobileNavbar = ({ nav, closeNav }: Props) => {
         <div className="nav-link">
           <Link href="#testimonies-section">TESTIMONIES</Link>
         </div>
-        <div className="nav-link">
+        {/* <div className="nav-link">
           <Link href="#contact-section">CONTACT</Link>
-        </div>
+        </div> */}
       </div>
       <div
         onClick={closeNav}

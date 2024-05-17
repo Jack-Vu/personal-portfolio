@@ -49,8 +49,17 @@ const ProjectCard = ({
 
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className="mt-2 text-[16px]">{description}</p>
-        {website_link && <Link className="text-[15px] text-purple-400 underline" href={website_link}>{website_link}</Link>}
+        <p className={`mt-2 text-[16px] ${website_link ? "" : "mb-6 mt-[18px]"}`}>
+          {description}
+        </p>
+        {website_link && (
+          <Link
+            className="text-[15px] text-purple-400 underline"
+            href={website_link}
+          >
+            {website_link}
+          </Link>
+        )}
       </div>
 
       <div className="mt-3 flex flex-wrap gap-1">

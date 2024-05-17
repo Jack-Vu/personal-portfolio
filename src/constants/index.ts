@@ -58,7 +58,7 @@ const projects = [
   {
     name: "Calculator",
     description:
-      "This web calculator offers simple arithmetic operations like add, subtract, multiple, divide, percentages, and sign changes, all within a user-friendly design.",
+      "This web calculator was built using pure css, html, and javascript. It offers simple arithmetic operations like add, subtract, multiple, divide, percentages, and sign changes, all within a user-friendly design.",
     tags: [
       {
         name: "javascript",
@@ -79,7 +79,7 @@ const projects = [
   {
     name: "To Do List",
     description:
-      "Built with React and deployed using AWS Amplify. It is a simple design allowing you to organize and manage your daily task effortlessly and efficiently.",
+      "Built with React and deployed using AWS Amplify. It is a simple design allowing you to organize and manage your daily task effortlessly and efficiently. This app stores your data local so you task will persist until cookies and caches are cleared.",
     tags: [
       {
         name: "react",
@@ -100,7 +100,7 @@ const projects = [
   {
     name: "Match Maker",
     description:
-      "Match Maker is a fun memory game. Can be made more difficult by increasing the speed of the game or size of the grid. Great for improve memory and reaction time.",
+      "Match Maker is a fun memory game developed in react. Can be made more difficult by increasing the speed of the game or size of the grid. If you get stuck, try out the hint button. Great for improve memory and reaction time.",
     tags: [
       {
         name: "react",
@@ -160,7 +160,7 @@ const projects = [
   {
     name: "Bazaar",
     description:
-      "Welcome to Bazaar, your ultimate destination for a comprehensive e-commerce experience. Explore a wide range of features and an extensive selection of items.",
+      "Welcome to Bazaar, your ultimate destination for a comprehensive e-commerce experience. Explore a wide range of features and an variety selection of items.",
     tags: [
       {
         name: "typescript",

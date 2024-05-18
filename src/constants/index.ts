@@ -1,3 +1,18 @@
+const intro = `Welcome to my website! Here, you'll find a showcase of my projects
+and work experience, reflecting my journey and passion for software
+development. Whether you\'re here to explore my work or learn more
+about my skills, I invite you to browse through and see what I\'ve
+accomplished. If you have any questions or would like to get in
+touch, please feel free to contact me at any time. I\'m always open
+to new opportunities and connections!`;
+
+const about = `I'm a software developer with a background in healthcare and
+biotechnology. After realizing my passion for coding, I
+transitioned to software development full-time. Outside of work, I
+enjoy board games, puzzles, and powerlifting. Feel free to explore
+my projects and work experience, and don't hesitate to reach out
+if you'd like to connect.`;
+
 const experiences = [
   {
     title: "Data Analyst",
@@ -9,7 +24,7 @@ const experiences = [
       "Created reports on study participation and results for study clients.",
       "Cleaned and validated data for thousands of participants.",
       "Analyzed study data and identified consistent fraudulent activity, improved study protocols, resulting in reduced costs due to such errors. ",
-      "Lead meetings with partnering clinics regarding study analytics and participant engagement data.",
+      "Led meetings with partnering clinics regarding study analytics and participant engagement data.",
       "Contacted participants, resolved issues or complaints, and ensured their completion of the study.",
     ],
   },
@@ -196,4 +211,34 @@ const projects = [
     website_link: "https://match-maker.jack-vu.com/",
   },
 ];
-export { experiences, tech, projects };
+
+const testimonies = [
+  {
+    name: "Hye Lee",
+    title: "Re:boot Colleague",
+    content: `"Jack is a dependable colleague, always ready to assist and offer
+    guidance. His patience and willingness to help, even with basic
+    questions, highlight his admirable demeanor. With his knowledge
+    and support, he will undoubtedly contribute to the success of any
+    team he joins."`,
+  },
+  {
+    name: "Muradil Erkin",
+    title: " Re:boot Instructor & Founder",
+    content: `"Couldn't have completed major class projects without all of his
+    contributions and help; Jack is well on his way to being a Full
+    Stack Web Developer and, furthermore, he is a teammate we all can
+    count on. His dedication and hard work are truly admirable. I have
+    no doubt he'll continue to excel in the future!"`,
+  },
+  {
+    name: "Shin Kim",
+    title: "Re:boot Colleague",
+    content: `"Jack's performance is consistently exceptional! It fills me with
+    pride to have collaborated with him on multiple projects.
+    Observing his rapid learning speed, akin to a sponge absorbing
+    water, inspires me to redouble my efforts. I'm looking forward to
+    seeing him achieve great things."`,
+  },
+];
+export { experiences, tech, projects, intro, about, testimonies };

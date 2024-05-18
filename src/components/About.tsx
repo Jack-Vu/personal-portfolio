@@ -6,13 +6,15 @@ import { about } from "../constants";
 import Link from "next/link";
 
 const About = () => {
-  const [profilePicture, setProfilePicture] = useState("/img/Profilepic2.jpg");
+  const [profilePicture, setProfilePicture] = useState(
+    "/assets/img/Profilepic2.jpg"
+  );
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 1024) {
-        setProfilePicture("/img/Profilepic1.jpg");
+        setProfilePicture("/assets/img/Profilepic1.jpg");
       } else {
-        setProfilePicture("/img/Profilepic2.jpg");
+        setProfilePicture("/assets/img/Profilepic2.jpg");
       }
     };
 

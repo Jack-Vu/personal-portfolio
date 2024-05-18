@@ -17,7 +17,7 @@ const experiences = [
   {
     title: "Data Analyst",
     company_name: "Endominance",
-    icon: "/img/endominance.png",
+    icon: "/assets/img/endominance.png",
     iconBg: "#383E56",
     date: "October 2022 - December 2023",
     points: [
@@ -31,7 +31,7 @@ const experiences = [
   {
     title: "Physical Therapy Technician",
     company_name: "The Center for Physical Therapy and Sports Medicine",
-    icon: "/img/centerpt.png",
+    icon: "/assets/img/centerpt.png",
     iconBg: "#E6DEDD",
     date: "July 2021 - February 2022",
     points: [
@@ -42,7 +42,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Pivot",
-    icon: "/img/pivot.png",
+    icon: "/assets/img/pivot.png",
     iconBg: "#383E56",
     date: "November 2020 - July 2021",
     points: [
@@ -53,17 +53,17 @@ const experiences = [
 ];
 
 const tech = [
-  { name: "html", icon: "/img/html.svg" },
-  { name: "css", icon: "/img/css.svg" },
-  { name: "javascript", icon: "/img/javascript.svg" },
-  { name: "typescript", icon: "/img/typescript.svg" },
-  { name: "react", icon: "/img/react.svg" },
-  { name: "next", icon: "/img/next.svg" },
-  { name: "bootstrap", icon: "/img/bootstrap.svg" },
-  { name: "material-ui", icon: "/img/material-ui.svg" },
-  { name: "redux", icon: "/img/redux.svg" },
-  { name: "git", icon: "/img/git.svg" },
-  { name: "github", icon: "/img/github.svg" },
+  { name: "html", icon: "/assets/img/html.svg" },
+  { name: "css", icon: "/assets/img/css.svg" },
+  { name: "javascript", icon: "/assets/img/javascript.svg" },
+  { name: "typescript", icon: "/assets/img/typescript.svg" },
+  { name: "react", icon: "/assets/img/react.svg" },
+  { name: "next", icon: "/assets/img/next.svg" },
+  { name: "bootstrap", icon: "/assets/img/bootstrap.svg" },
+  { name: "material-ui", icon: "/assets/img/material-ui.svg" },
+  { name: "redux", icon: "/assets/img/redux.svg" },
+  { name: "git", icon: "/assets/img/git.svg" },
+  { name: "github", icon: "/assets/img/github.svg" },
 ];
 
 const projects = [
@@ -101,7 +101,7 @@ const projects = [
         color: "text-orange-600",
       },
     ],
-    image: "/img/project-4.png",
+    image: "/assets/img/project-4.png",
     source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/TwistaGram",
     website_link: "https://twistagram.re-boot.us/",
   },
@@ -139,7 +139,7 @@ const projects = [
         color: "text-orange-600",
       },
     ],
-    image: "/img/project-5.png",
+    image: "/assets/img/project-5.png",
     source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/Bazaar",
     website_link: "https://bazaar.re-boot.us/",
   },
@@ -161,7 +161,7 @@ const projects = [
         color: "text-green-600",
       },
     ],
-    image: "/img/project-2.png",
+    image: "/assets/img/project-2.png",
     source_code_link: "https://github.com/Jack-Vu/Jack-todo-list",
     website_link: "https://todolist.jack-vu.com/",
   },
@@ -183,7 +183,7 @@ const projects = [
         color: "text-green-600",
       },
     ],
-    image: "/img/project-1.png",
+    image: "/assets/img/project-1.png",
     source_code_link: "https://github.com/Jack-Vu/calculator",
     website_link: "https://calculator.jack-vu.com",
   },
@@ -206,7 +206,7 @@ const projects = [
         color: "text-green-600",
       },
     ],
-    image: "/img/project-3.png",
+    image: "/assets/img/project-3.png",
     source_code_link: "https://github.com/Jack-Vu/match-maker",
     website_link: "https://match-maker.jack-vu.com/",
   },

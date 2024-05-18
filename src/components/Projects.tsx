@@ -39,7 +39,7 @@ const ProjectCard = ({
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img
-              src="/img/github2.svg"
+              src="/assets/img/github2.svg"
               alt="source code"
               className="w-12 h-12 object-contain"
             />

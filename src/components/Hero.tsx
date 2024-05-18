@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="pb-[25px] md:pb-[75px] pt-[75px] md:pt[150px] bg-[url('/img/banner-bg.png')] mt-[10vh] bg-cover bg-center">
+    <div className="pb-[25px] md:pb-[75px] pt-[75px] md:pt[150px] bg-[url('/assets/img/banner-bg.png')] mt-[10vh] bg-cover bg-center">
       <Particle />
       <div className="w-[85%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
         <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center mx-auto rounded-full h-[500px]">
           <Image
-            src="/img/Profilepic1.jpg"
+            src="/assets/img/Profilepic1.jpg"
             alt="profile picture"
             fill
             className="object-cover rounded-full"

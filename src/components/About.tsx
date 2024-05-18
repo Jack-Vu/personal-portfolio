@@ -3,6 +3,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { about } from "../constants";
+import Link from "next/link";
 
 const About = () => {
   const [profilePicture, setProfilePicture] = useState("/img/Profilepic2.jpg");
@@ -38,10 +39,17 @@ const About = () => {
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">{about}</p>
           </div>
-          {/* <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-centers space-x-2">
-            <p>Download CV</p>
-            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-          </button> */}
+          <Link
+            href="assets/Vu_Jack_Resume.pdf"
+            download={true}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-centers space-x-2">
+              <p>Download CV</p>
+              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
+            </button>
+          </Link>
         </div>
         <div className="lg:w-[500px] mx-auto  mt-[2rem] lg:mt-0 lg:h-[500px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] relative">
           <Image

@@ -5,6 +5,7 @@ import { TextEffect } from "./TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import { intro } from "../constants";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -16,15 +17,20 @@ const Hero = () => {
             HI, I'M <span className="text-blue-400">JACK!</span>
           </h1>
           <TextEffect />
-          <p className="my-[1.5rem] text-[20px] text-[#ffffff92]">
-            {intro}
-          </p>
-          {/* <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-centers space-x-2">
-              <p>Download CV</p>
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button>
-          </div> */}
+          <p className="my-[1.5rem] text-[20px] text-[#ffffff92]">{intro}</p>
+          <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
+            <Link
+              href="assets/Vu_Jack_Resume.pdf"
+              download={true}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-centers space-x-2">
+                <p>Download CV</p>
+                <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
+              </button>
+            </Link>
+          </div>
         </div>
         <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center mx-auto rounded-full h-[500px]">
           <Image

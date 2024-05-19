@@ -143,13 +143,10 @@ const Projects = () => {
   return (
     <div className="bg-[#141c27] pb-[4rem] pt-[2rem] md:pt-[8rem]">
       <div className="w-[85%] mx-auto gap-[3rem] items-center">
-        <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
-          A COLLECTION OF MY DEVELOPMENT WORK
-        </h1>
-        <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
+        <h2 className="heading">
           Software <span className="text-blue-400">Projects</span>
         </h2>
-        <div className="flex items-center justify-center gap-2 md:gap-16">
+        <div className="flex items-center justify-center gap-2 md:gap-16 mt-[4rem] pb-[4rem]">
           <button onClick={handleLeftClick}>
             <ArrowLeftIcon className="w-5 h- 5 md:w-10 md:h-10 text-white" />
           </button>

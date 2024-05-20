@@ -11,7 +11,7 @@ const Tech = () => {
       <h2 className="heading bg-[#141c27]">
         Tech <span className="text-blue-400">Stack</span>
       </h2>
-      <div className="flex flex-row flex-wrap justify-center gap-5 bg-[#141c27] pb-[4rem] pt-[2rem] md:pt-[8rem]">
+      <div className="flex flex-row flex-wrap justify-center gap-5 bg-[#141c27] pb-[4rem] pt-[2rem] md:pt-[4rem]">
         {tech.map(({ name, icon }) => {
           return (
             <div

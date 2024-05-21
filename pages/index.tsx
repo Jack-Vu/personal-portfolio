@@ -38,7 +38,7 @@ const HomePage = () => {
             <Testimonies />
           </div>
           <div id="contact-section">
-            {/* <Contact /> */}
+            <Contact />
           </div>
         </div>
       </div>

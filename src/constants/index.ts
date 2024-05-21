@@ -35,7 +35,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Physical Therapy Aide",
     company_name: "Pivot",
     icon: "/assets/img/pivot.png",
     iconBg: "#383E56",

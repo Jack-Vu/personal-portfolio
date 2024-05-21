@@ -31,7 +31,7 @@ const About = () => {
     <div className="bg-[#141c27] pb-[4rem] pt-[2rem] md:pt-[8rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[85%] mx-auto gap-[3rem] items-center">
         <div>
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className="text-[20px] font-bold uppercase text-blue-400 md-[1rem]">
             ABOUT ME
           </h1>
           <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
@@ -47,7 +47,7 @@ const About = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-centers space-x-2">
+            <button className="px-[2rem] bg-blue-600 hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase text-black flex items-centers space-x-2">
               <p>Download CV</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
@@ -60,7 +60,7 @@ const About = () => {
             className="relative z-[11] object-cover rounded-3xl"
             alt="alt profile picture"
           />
-          <div className="absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem] rounded-3xl"></div>
+          <div className="absolute w-[100%] h-[100%] z-[10] text-blue-400 top-[-2rem] right-[-2rem] rounded-3xl"></div>
         </div>
       </div>
     </div>

@@ -14,22 +14,34 @@ const Navbar = ({ openNav }: Props) => {
           J<span className="text-blue-400">V</span>
         </h1>
         <div className="nav-link">
-          <Link href="/">HOME</Link>
+          <Link href="/" scroll={false}>
+            HOME
+          </Link>
         </div>
         <div className="nav-link">
-          <Link href="#about-section">ABOUT</Link>
+          <Link href="#about-section" scroll={false}>
+            ABOUT
+          </Link>
         </div>
         <div className="nav-link">
-          <Link href="#experience-section">EXPERIENCE</Link>
+          <Link href="#experience-section" scroll={false}>
+            EXPERIENCE
+          </Link>
         </div>
         <div className="nav-link">
-          <Link href="#project-section"> PROJECT</Link>
+          <Link href="#project-section" scroll={false}>
+            PROJECT
+          </Link>
         </div>
         <div className="nav-link">
-          <Link href="#testimonies-section">TESTIMONIES</Link>
+          <Link href="#testimonies-section" scroll={false}>
+            TESTIMONIES
+          </Link>
         </div>
         <div className="nav-link">
-          <Link href="#contact-section">CONTACT</Link>
+          <Link href="#contact-section" scroll={false}>
+            CONTACT
+          </Link>
         </div>
         <div onClick={openNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-blue-400" />

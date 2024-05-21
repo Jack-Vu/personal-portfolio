@@ -50,13 +50,13 @@ const ProjectCard = ({
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
         <p
-          className={`mt-2 text-[16px] ${website_link ? "" : "mb-6 mt-[18px]"}`}
+          className={`mt-2 text-[16px] text-white ${website_link ? "" : "mb-6 mt-[18px]"}`}
         >
           {description}
         </p>
         {website_link && (
           <>
-            <span className="font-normal">Link: </span>
+            <span className="font-normal text-white">Link:  </span>
             <Link
               className="text-[15px] text-purple-400 underline"
               href={website_link}

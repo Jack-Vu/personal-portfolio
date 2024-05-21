@@ -25,14 +25,14 @@ const Hero = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-centers space-x-2">
+              <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-blue-600 text-black flex items-centers space-x-2">
                 <p>Download CV</p>
                 <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
               </button>
             </Link>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center mx-auto rounded-full h-[500px]">
+        <div className="w-[500px] hidden bg-blue-600 relative lg:flex items-center mx-auto rounded-full h-[500px]">
           <Image
             src="/assets/img/Profilepic1.jpg"
             alt="profile picture"

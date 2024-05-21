@@ -7,9 +7,8 @@ touch, please feel free to contact me at any time. I\'m always open
 to new opportunities and connections!`;
 
 const about = `I'm a software developer with a background in healthcare and
-biotechnology. After realizing my passion for coding, I
-transitioned to software development full-time. Outside of work, I
-enjoy board games, puzzles, and powerlifting. Feel free to explore
+biotechnology, but most importantly I'm a professional looking to make connections and get to know others who share my interest. 
+Outside of coding, I love puzzles and board games, anything that challenges me in new way and makes me think with a different approach. Over the past 6 years, I\'ve been dedicated to powerlifting. I love the straneous and determiniation the sport has proved and the community brings the best out of me. Feel free to explore
 my projects and work experience, and don't hesitate to reach out
 if you'd like to connect.`;
 

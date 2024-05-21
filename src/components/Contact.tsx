@@ -110,7 +110,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="Name?"
-                className="py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium w-[400px] sm:w-[400px] md:w-[600px] lg:w-[800px]"
+                className="py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px]"
               />
             </label>
             <label className="flex flex-col">
@@ -121,7 +121,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={handleChange}
                 placeholder="Email address"
-                className="py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium  w-[400px] sm:w-[400px] md:w-[600px] lg:w-[800px]"
+                className="py-4 px-6 placeholder:text-secondary text-black rounded-lg outline-none border-none font-medium  w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px]"
               />
             </label>
             {/* <p className="text-red-700 flex gap-2">

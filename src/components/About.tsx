@@ -41,17 +41,25 @@ const About = () => {
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">{about}</p>
           </div>
-          <Link
-            href="assets/Vu_Jack_Resume.pdf"
-            download={true}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <button className="px-[2rem] bg-blue-600 hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase text-black flex items-centers space-x-2">
-              <p>Download CV</p>
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button>
-          </Link>
+          <div className="px-[2rem] text-[18px] md:text-[20px] font-bold uppercase bg-blue-600 py-[1rem] text-black flex items-center justify-start space-x-2 w-fit gap-2 rounded-3xl">
+            Social Medias:
+            <Link href={"https://www.linkedin.com/in/jack-vu-1b4358274/"}>
+              <Image
+                src={"/assets/img/linkedin.svg"}
+                width="41"
+                height="41"
+                alt="linkedin logo"
+              />
+            </Link>
+            <Link href="https://github.com/Jack-Vu">
+              <Image
+                src={"/assets/img/github2.svg"}
+                width="40"
+                height="40"
+                alt="github logo"
+              />
+            </Link>
+          </div>
         </div>
         <div className="lg:w-[500px] mx-auto  mt-[2rem] lg:mt-0 lg:h-[500px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] relative">
           <Image
@@ -60,7 +68,6 @@ const About = () => {
             className="relative z-[11] object-cover rounded-3xl"
             alt="alt profile picture"
           />
-          <div className="absolute w-[100%] h-[100%] z-[10] text-blue-400 top-[-2rem] right-[-2rem] rounded-3xl"></div>
         </div>
       </div>
     </div>

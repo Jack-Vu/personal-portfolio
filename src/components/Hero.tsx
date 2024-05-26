@@ -25,7 +25,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-blue-600 text-black flex items-centers space-x-2">
+              <button className="px-[2rem] hover:bg-blue-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-blue-600 text-black flex items-centers rounded-3xl space-x-2">
                 <p>Download CV</p>
                 <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
               </button>

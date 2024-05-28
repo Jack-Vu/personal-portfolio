@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { MouseEventHandler, useEffect, useState } from "react";
 import { projects } from "../constants";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
@@ -34,29 +34,33 @@ const ProjectCard = ({
           className="w-full h-[200px] md:h-[250px] object-cover rounded-2xl"
         />
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-          <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          <Link
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center"
+            href={`${source_code_link}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="/assets/img/github2.svg"
               alt="source code"
               className="w-12 h-12 object-contain"
             />
-          </div>
+          </Link>
         </div>
       </div>
 
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
         <p
-          className={`mt-2 text-[16px] text-white ${website_link ? "" : "mb-6 mt-[18px]"}`}
+          className={`mt-2 text-[16px] text-white ${
+            website_link ? "" : "mb-6 mt-[18px]"
+          }`}
         >
           {description}
         </p>
         {website_link && (
           <>
-            <span className="font-normal text-white">Link:  </span>
+            <span className="font-normal text-white">Link: </span>
             <Link
               className="text-[15px] text-purple-400 underline"
               href={website_link}

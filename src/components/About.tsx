@@ -43,7 +43,11 @@ const About = () => {
           </div>
           <div className="px-[2rem] text-[18px] md:text-[20px] font-bold uppercase bg-blue-600 py-[1rem] text-black flex items-center justify-start space-x-2 w-fit gap-2 rounded-3xl">
             Social Medias:
-            <Link href={"https://www.linkedin.com/in/jack-vu-1b4358274/"}>
+            <Link
+              href={"https://www.linkedin.com/in/jack-vu-1b4358274/"}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Image
                 src={"/assets/img/linkedin.svg"}
                 width="41"
@@ -51,7 +55,11 @@ const About = () => {
                 alt="linkedin logo"
               />
             </Link>
-            <Link href="https://github.com/Jack-Vu">
+            <Link
+              href="https://github.com/Jack-Vu"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <Image
                 src={"/assets/img/github2.svg"}
                 width="40"

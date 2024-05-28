@@ -65,16 +65,10 @@ const Contact = () => {
       return;
     }
 
-    if (!emailServiceId || !templateId || !publicKey) {
-      alert("Error, email was not sent!");
-      setLoading(false);
-      return;
-    }
-
     emailjs
       .send(
-        emailServiceId,
-        templateId,
+        emailServiceId ?? "",
+        templateId ?? "",
         {
           from_name: form.name.trim(),
           to_name: "Jack Vu",

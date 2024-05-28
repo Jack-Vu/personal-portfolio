@@ -73,11 +73,11 @@ const projects = [
       },
       {
         name: "next.js",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "nextauth.js",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
       {
         name: "mui",
@@ -85,11 +85,11 @@ const projects = [
       },
       {
         name: "tRPC",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "planetscale",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
       {
         name: "prisma",
@@ -111,11 +111,11 @@ const projects = [
       },
       {
         name: "next.js",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "nextauth.js",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
       {
         name: "tailwindcss",
@@ -123,11 +123,11 @@ const projects = [
       },
       {
         name: "tRPC",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "planetscale",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
       {
         name: "prisma",
@@ -149,11 +149,11 @@ const projects = [
       },
       {
         name: "bootstrap",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "aws",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
     ],
     image: "/assets/img/project-2.png",
@@ -171,11 +171,11 @@ const projects = [
       },
       {
         name: "html",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "css",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
     ],
     image: "/assets/img/project-1.png",
@@ -194,11 +194,11 @@ const projects = [
       },
       {
         name: "react",
-        color: "text-red-600",
+        color: "text-orange-600",
       },
       {
         name: "mui",
-        color: "text-green-600",
+        color: "text-orange-600",
       },
     ],
     image: "/assets/img/project-3.png",

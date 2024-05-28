@@ -34,7 +34,7 @@ const Contact = () => {
 
     setForm({
       ...form,
-      [name]: value.trim(),
+      [name]: value,
     });
   };
 
@@ -45,7 +45,7 @@ const Contact = () => {
 
     setForm({
       ...form,
-      [name]: value.trim(),
+      [name]: value,
     });
   };
 
@@ -57,10 +57,16 @@ const Contact = () => {
     const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const publicKey = process.env.NEXT_PUBLIC_KEY;
 
-    if (!emailServiceId || !templateId || !publicKey) {
+    if (!form.message || !form.email || !form.name) {
       alert(
         "Please fill out your name, email and a message before submitting!"
       );
+      setLoading(false);
+      return;
+    }
+
+    if (!emailServiceId || !templateId || !publicKey) {
+      alert("Error, email was not sent!");
       setLoading(false);
       return;
     }
@@ -70,11 +76,11 @@ const Contact = () => {
         emailServiceId,
         templateId,
         {
-          from_name: form.name,
+          from_name: form.name.trim(),
           to_name: "Jack Vu",
-          from_email: form.email,
+          from_email: form.email.trim(),
           to_email: "jacknvu98@gmail.com",
-          message: form.message,
+          message: form.message.trim(),
         },
         publicKey
       )

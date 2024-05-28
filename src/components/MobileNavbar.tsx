@@ -16,7 +16,7 @@ const MobileNavbar = ({ nav, closeNav }: Props) => {
     >
       <div className="h-[100vh] flex flex-col items-center justify-center z-[10000000]">
         <div className="nav-link-mobile" onClick={closeNav}>
-          <Link href="/" scroll={false}>
+          <Link href="#home" scroll={false}>
             HOME
           </Link>
         </div>

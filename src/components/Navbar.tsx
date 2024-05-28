@@ -14,7 +14,7 @@ const Navbar = ({ openNav }: Props) => {
           J<span className="text-blue-400">V</span>
         </h1>
         <div className="nav-link">
-          <Link href="/" scroll={false}>
+          <Link href="#home" scroll={false}>
             HOME
           </Link>
         </div>

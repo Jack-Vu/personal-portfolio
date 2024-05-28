@@ -22,7 +22,9 @@ const HomePage = () => {
       <div>
         <MobileNavbar nav={nav} closeNav={closeNav} />
         <Navbar openNav={openNav} />
-        <Hero />
+        <div id="home">
+          <Hero />
+        </div>
         <div className="relative z-[30]">
           <div id="about-section">
             <About />

@@ -1,4 +1,4 @@
-import React, { MouseEventHandler, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { projects } from "../constants";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";

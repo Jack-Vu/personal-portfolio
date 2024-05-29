@@ -1,12 +1,10 @@
 import React, {
   ChangeEvent,
-  ChangeEventHandler,
   useEffect,
   useRef,
   useState,
 } from "react";
 import emailjs from "@emailjs/browser";
-import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 
 const Contact = () => {
   const [form, setForm] = useState({

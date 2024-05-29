@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { about } from "../constants";

@@ -38,7 +38,6 @@ const About = () => {
             Transforming <span className="text-blue-400">Visions</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
-            <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">{about}</p>
           </div>
           <div className="px-[2rem] text-[18px] md:text-[20px] font-bold uppercase bg-blue-600 py-[1rem] text-black flex items-center justify-start space-x-2 w-fit gap-2 rounded-3xl">

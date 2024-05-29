@@ -70,7 +70,7 @@ const Experience = () => {
           Work <span className="text-blue-400">Experience</span>
         </h2>
       </div>
-      <div className="flex flex-col mt-[4rem]">
+      <div className="flex flex-col mx-auto mt-[4rem] w-[85%]">
         <VerticalTimeline>
           {experiences.map((experience: ExperienceType, index) => (
             <ExperienceCard

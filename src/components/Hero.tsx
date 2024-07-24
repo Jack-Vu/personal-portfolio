@@ -20,7 +20,7 @@ const Hero = () => {
           <p className="my-[1.5rem] text-[20px] text-[#ffffff92]">{intro}</p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <Link
-              href="assets/Vu_Jack_Resume.pdf"
+              href="assets/Software_Developer_Jack_Vu.pdf"
               download={true}
               rel="noopener noreferrer"
               target="_blank"

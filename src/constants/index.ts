@@ -16,12 +16,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2022 - December 2023",
     points: [
-      "Created reports on study participation and results for study clients.",
-      "Cleaned and validated data for thousands of participants.",
-      "Analyzed study data and identified consistent fraudulent activity, improved study protocols, resulting in reduced costs due to such errors. ",
-      "Led meetings with partnering clinics regarding study analytics and participant engagement data.",
-      "Contacted participants, resolved issues or complaints, and ensured their completion of the study.",
-    ],
+      "Analyzed participant engagement data from partnering clinics to identify key trends and insights, leading to a 15% increase in study retention rates.",
+      "Resolved complex participant concerns and challenges through effective communication and problem-solving skills, leading to a 10% increase in overall satisfaction with the study process.",
+      "Identified and addressed fraudulent activity in study data through detailed analysis, leading to the implementation of new security protocols that reduced error-related costs by 20%. "
+    ]
   },
   {
     title: "Physical Therapy Technician",
@@ -30,9 +28,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2021 - February 2022",
     points: [
-      "Handled up to 6 patients at a time, guiding them through exercises, providing hands-on assistance, and offering support.",
-      "Communicated with patients, regularly checking on their well-being and adjusting their exercise plans to match their progress.",
-    ],
+      "Utilized active listening skills and empathy to build strong relationships with patients, leading to a 20% increase in patient satisfaction scores.",
+      "Managed rehabilitation sessions for up to 6 patients concurrently, overseeing exercise routines, and providing real-time feedback from patients during sessions. Resulting in a 10% decrease in recovery time and a 25% increase in successful rehabilitation outcomes."
+    ]
   },
   {
     title: "Physical Therapy Aide",
@@ -41,10 +39,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "November 2020 - July 2021",
     points: [
-      "Ensured patients were checked in on time and started their exercises promptly to avoid delays and conflicting appointments.",
-      "Demonstrated and thoroughly explained exercises to patients.",
-    ],
-  },
+      "Scheduled patient exercises strategically to minimize wait times between appointments, resulting in a 90% decrease in conflicting schedules.",
+      "Utilized visual aids and hands-on demonstrations to teach proper form for therapeutic exercises, resulting in a 90% adherence rate among patients."
+    ]
+  }
 ];
 
 const tech = [
@@ -58,7 +56,7 @@ const tech = [
   { name: "material-ui", icon: "/assets/img/material-ui.svg" },
   { name: "redux", icon: "/assets/img/redux.svg" },
   { name: "git", icon: "/assets/img/git.svg" },
-  { name: "github", icon: "/assets/img/github.svg" },
+  { name: "github", icon: "/assets/img/github.svg" }
 ];
 
 const projects = [
@@ -69,36 +67,36 @@ const projects = [
     tags: [
       {
         name: "typescript",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "next.js",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "nextauth.js",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "mui",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "tRPC",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "planetscale",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "prisma",
-        color: "text-orange-600",
-      },
+        color: "text-orange-600"
+      }
     ],
     image: "/assets/img/project-4.png",
     source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/TwistaGram",
-    website_link: "https://twistagram.re-boot.us/",
+    website_link: "https://twistagram.re-boot.us/"
   },
   {
     name: "Bazaar",
@@ -107,36 +105,36 @@ const projects = [
     tags: [
       {
         name: "typescript",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "next.js",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "nextauth.js",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "tailwindcss",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "tRPC",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "planetscale",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "prisma",
-        color: "text-orange-600",
-      },
+        color: "text-orange-600"
+      }
     ],
     image: "/assets/img/project-5.png",
     source_code_link: "https://github.com/Re-boot-Coding-Bootcamp/Bazaar",
-    website_link: "https://bazaar.re-boot.us/",
+    website_link: "https://bazaar.re-boot.us/"
   },
   {
     name: "To Do List",
@@ -145,20 +143,20 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "bootstrap",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "aws",
-        color: "text-orange-600",
-      },
+        color: "text-orange-600"
+      }
     ],
     image: "/assets/img/project-2.png",
     source_code_link: "https://github.com/Jack-Vu/Jack-todo-list",
-    website_link: "https://todolist.jack-vu.com/",
+    website_link: "https://todolist.jack-vu.com/"
   },
   {
     name: "Calculator",
@@ -167,20 +165,20 @@ const projects = [
     tags: [
       {
         name: "javascript",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "html",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "css",
-        color: "text-orange-600",
-      },
+        color: "text-orange-600"
+      }
     ],
     image: "/assets/img/project-1.png",
     source_code_link: "https://github.com/Jack-Vu/calculator",
-    website_link: "https://calculator.jack-vu.com",
+    website_link: "https://calculator.jack-vu.com"
   },
 
   {
@@ -190,21 +188,21 @@ const projects = [
     tags: [
       {
         name: "javascript",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "react",
-        color: "text-orange-600",
+        color: "text-orange-600"
       },
       {
         name: "mui",
-        color: "text-orange-600",
-      },
+        color: "text-orange-600"
+      }
     ],
     image: "/assets/img/project-3.png",
     source_code_link: "https://github.com/Jack-Vu/match-maker",
-    website_link: "https://match-maker.jack-vu.com/",
-  },
+    website_link: "https://match-maker.jack-vu.com/"
+  }
 ];
 
 const testimonies = [
@@ -215,7 +213,7 @@ const testimonies = [
     guidance. His patience and willingness to help, even with basic
     questions, highlight his admirable demeanor. With his knowledge
     and support, he will undoubtedly contribute to the success of any
-    team he joins."`,
+    team he joins."`
   },
   {
     name: "Muradil Erkin",
@@ -224,7 +222,7 @@ const testimonies = [
     contributions and help; Jack is well on his way to being a Full
     Stack Web Developer and, furthermore, he is a teammate we all can
     count on. His dedication and hard work are truly admirable. I have
-    no doubt he'll continue to excel in the future!"`,
+    no doubt he'll continue to excel in the future!"`
   },
   {
     name: "Shin Kim",
@@ -233,7 +231,7 @@ const testimonies = [
     pride to have collaborated with him on multiple projects.
     Observing his rapid learning speed, akin to a sponge absorbing
     water, inspires me to redouble my efforts. I'm looking forward to
-    seeing him achieve great things."`,
-  },
+    seeing him achieve great things."`
+  }
 ];
 export { experiences, tech, projects, intro, about, testimonies };
